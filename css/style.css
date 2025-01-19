@@ -3,6 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 a {
   text-decoration: none !important;
 }
@@ -182,6 +187,19 @@ nav ul li a i {
   margin-top: 20px;
   display: flex;
   gap: 10px;
+}
+.social-link.team-details {
+  gap: 7px;
+}
+.social-link.team-details a {
+  background: #351ee0;
+  width: 27px;
+  height: 27px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  color: white;
 }
 .follow-us h3 {
   color: white;
@@ -401,4 +419,61 @@ nav ul li a i {
   display: flex;
   gap: 10px;
   align-items: center;
+}
+.pricing-area {
+  margin: 120px 0;
+}
+/* Pricing Card Area */
+.pricing-card {
+  border: 1px solid #c1d4e8;
+  border-radius: 5px;
+  text-align: center;
+  padding: 30px;
+  transition: all 0.4s ease;
+  color: #05092b;
+}
+.pricing-card:hover {
+  background: #05092b;
+  color: white;
+}
+.pricing-card .price-icon {
+  font-size: 42px;
+  margin: 30px 0;
+}
+.pricing-card .price {
+  /* color: #001f3f; */
+  font-family: "Space Grotesk";
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 40px;
+  margin-bottom: 30px;
+}
+.pricing-card .price sub {
+  /* color: #001f3f; */
+  font-family: "Space Grotesk";
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 20px;
+}
+.pricing-card ul {
+  /* color: #001f3f; */
+  font-family: "Space Grotesk";
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 20px;
+  margin-bottom: 30px;
+}
+.pricing-card ul li {
+  margin-bottom: 15px;
+}
+.pricing-card ul li:last-child {
+  margin-bottom: 0;
+}
+.pricing-card .price-title {
+  /* color: #001f3f; */
+  text-align: center;
+  font-family: "Space Grotesk";
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 40px;
 }
